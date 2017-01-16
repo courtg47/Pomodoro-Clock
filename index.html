@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+ 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ 	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!--for Bootstrap 3 mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Increase Productivity | Pomodoro Clock</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js" type="text/javascript"></script>
+
+	<!--Google Font-->
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Thambi|Maven+Pro" rel="stylesheet">
+
+</head>
+
+<body class="gradient">
+  <audio id="timer" src="http://codingtutorials360.com/14244764.mp3" type="audio/mpeg"></audio>
+  <h1><img src="http://res.cloudinary.com/lqiwcxzks/image/upload/c_scale,w_150/v1482298004/68747470733a2f2f63646e322e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6272696768742d666f6f642d70726f64756374732f3531322f746f6d61746f2d3531322e706e67_y4xyzx.png" alt="pomodoro">Pomodoro Clock</h1>
+  <h2 class="instruct">Increase Your Productivity with the Pomodoro Technique!</h2>
+  <p class="instruct">Focus Intensely for 25 minutes, then take a 5 minute break. Repeat as desired. Click on "Session in Progress" to start!</p>
+  <div id="set">
+    <div id="session" class="length">
+      <h3 class="length">Session Length</h3>
+      <h3 id="sessionMinus">-</h3><h3 id="sessionNum">25</h3><h3 id="sessionPlus">+</h3></h3>
+    </div>
+    <div id="break" class="length">
+      <h3 class="length">Break Length</h3>
+      <h3 id="breakMinus">-</h3><h3 id="breakNum">5</h3><h3 id="breakPlus">+</h3>
+    </div>
+  <p class="instruct lower">*You may customize the work and break sessions. Simply click the plus/minus buttons.*</p>
+  </div>
+  
+  <div id="progress">
+    <h2 id="seshBreak">Session in Progress</h2>
+    <h2 id ="num">25</h2>
+  </div>
+<button id ="reset" type="button">Reset Timer</button>
+</body>
+
+
+<html>
